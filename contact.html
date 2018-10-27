@@ -16,10 +16,49 @@ Last modified: -->
     <nav>
         <a href="index.html">Home</a>
         <a href="menu.html">Menu</a>
-        <a href="contact.html">Contact</a>
+        <a href="contact.html">Contact Us</a>
     </nav>
     <hr />
     
+    <section>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br />
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br />
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone"><br />
+        <label for="reason">Reason for Inquiry:</label>
+        <select id="reason" name="reason">
+            <option value="catering" selected>Catering</option>
+            <option value="party">Private Party</option>
+            <option value="feedback">Feedback</option>
+            <option value="other">Other</option>
+        </select><br />
+        <label for="info">Additional Information:</label>
+        <textarea id="info" name="info"></textarea><br />
+        <fieldset>
+            <legend>Have you been to the restaurant?</legend>
+            <input type="radio" id="choice1" name="questionnaire" value="no">
+            <label for="choice1">No</label>
+            <input type="radio" id="choice2" name="questionnaire" value="yes">
+            <label for="choice2">Yes</label>
+        </fieldset><br />
+        <fieldset>
+                <legend>Best days to contact you:</legend>
+                <input type="checkbox" id="monday" name="monday" value="monday">
+                <label for="monday">M</label>
+                <input type="checkbox" id="tuesday" name="tuesday" value="tuesday">
+                <label for="tuesday">T</label>
+                <input type="checkbox" id="wednesday" name="wednesday" value="wednesday">
+                <label for="wednesday">W</label>
+                <input type="checkbox" id="thursday" name="thursday" value="thursday">
+                <label for="thursday">Th</label>
+                <input type="checkbox" id="friday" name="friday" value="friday">
+                <label for="friday">F</label>
+            </fieldset><br />
+        <input type="submit" name="submit" value="Send Request">
+    </section>
+
     <hr />
     <footer>
         <p>Street, City, State, Zip</p>
