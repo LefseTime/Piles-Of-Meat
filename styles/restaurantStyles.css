@@ -1,20 +1,22 @@
 body {
-    margin:0;
+    font-family: 'Special Elite', cursive;
 }
 header {
     font-family: 'Nosifer', cursive;
-    font-size: 2em;
+    font-size: 4em;
     color: crimson;
+    padding: 1em;
 }
-#title {
-    margin:0;
-    padding: .7em;
+header a {
+    color: white;
+    text-decoration: none;
+}
+header a:hover, active {
+    color: crimson;
+    text-decoration: none;
 }
 footer {
     color: white;
-}
-#page-bottom {
-    margin:0;
 }
 header, footer {
     text-align: center;
