@@ -1,0 +1,22 @@
+body {
+    margin:0;
+}
+header {
+    font-family: 'Nosifer', cursive;
+    font-size: 2em;
+    color: crimson;
+}
+#title {
+    margin:0;
+    padding: .7em;
+}
+footer {
+    color: white;
+}
+#page-bottom {
+    margin:0;
+}
+header, footer {
+    text-align: center;
+    background-color: black;
+}
