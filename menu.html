@@ -7,14 +7,21 @@ Last modified: -->
 <head>
 
     <title>Menu</title>
-    <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
+    <link href="styles/reset.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Nosifer|Special+Elite" rel="stylesheet">
     <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+    <style>
+        body {
+            background-color: rgba(218, 215, 205, 1);
+            color: rgba(37, 9, 2, 1);
+        }
+    </style>
 
 </head>
 
 <body>
     <header>
-        <h1 id="title">Piles of Meat</h1>
+        <h1><a href="index.html">Piles of Meat</a></h1>
     </header>
     <hr />
     <nav>
@@ -24,8 +31,8 @@ Last modified: -->
     </nav>
     <hr />
 
-    <section>
-        <div>
+    <section id="menu">
+        <div> 
             <article>
                 <h2>Pulled Pork Sandwich Pile</h2>
                 <p>A pile of pulled pork. Is there a bottom bun under there? We bet you'll never find out!</p>
@@ -44,7 +51,7 @@ Last modified: -->
                 <p>$7.49</p>
             </article>
         </div>
-        <div style="display:inline-block">
+        <div>
             <article>
                 <h2>Chicken Tartare Pile</h2>
                 <p>Is it safe? Please <a href="contact.html">let us know</a> how it goes.</p>
@@ -64,10 +71,9 @@ Last modified: -->
         </div>
     </section>
 
-    <hr />
     <footer>
         <p>5000 Hiawatha Ave, Minneapolis, MN, 55417</p>
-        <p id="page-bottom">867-5309</p>
+        <p>867-5309</p>
     </footer>
 
 </body>
