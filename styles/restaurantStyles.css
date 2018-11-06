@@ -18,10 +18,27 @@ header a:hover, active {
 footer {
     color: rgba(255, 255, 255, 1);
     padding: .7em;
+    bottom: 0;
 }
 header, footer {
     text-align: center;
     background-color: rgba(0, 0, 0, 1);
+}
+nav {
+    background-color: rgba(102, 0, 0, 1);
+    padding: 1em 0em 1em .5em;
+}
+nav a {
+    color: rgba(218, 215, 205, 1);
+}
+nav a:hover {
+    font-weight: bold;
+}
+nav a:visited{
+    color: orange;
+}
+nav a:active{
+    text-decoration: none;
 }
 
 /* COLOR PALETTE
